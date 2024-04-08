@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Sur"> Sur</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="songlist">
+            <h1>All time hits</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="cover.png" alt="1">
+                    <span class="songName">Stay</span>
+                    <span class="songlistplay"> <span class="timestamp">02:21 <i id="0" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover.png" alt="1">
+                    <span class="songName">Aaj na</span>
+                    <span class="songlistplay"> <span class="timestamp">03:15 <i id="1" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover.png" alt="1">
+                    <span class="songName">Husn</span>
+                    <span class="songlistplay"> <span class="timestamp">03:37 <i id="2" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover.png" alt="1">
+                    <span class="songName">Tu hai kahan</span>
+                    <span class="songlistplay"> <span class="timestamp">04:23 <i id="3" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover.png" alt="1">
+                    <span class="songName">Raat akeli thi</span>
+                    <span class="songlistplay"> <span class="timestamp">04:24 <i id="4" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover.png" alt="1">
+                    <span class="songName">Dil ki mez</span>
+                    <span class="songlistplay"> <span class="timestamp">03:37 <i id="5" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover.png" alt="1">
+                    <span class="songName">Nazar teri toofan</span>
+                    <span class="songlistplay"> <span class="timestamp">04:03 <i id="6" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="banner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fa-solid fa-3x fa-backward" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="play.gif" width="43px" alt="" id="gif"> <span id="masterSongName"> Stay </span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/5a1ea576d8.js" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
